@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --sm-font: "Quicksand", sans-serif;
+    --pink: #ffb8d9;
+    --gold: #fcc200;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+/*text*/
+
+.text-primary{
+    color: var(--gold)!important;
+}
+
+.highlight{
+    background-color: var(--pink);
+    padding: 3px 7px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px lightgray; 
+}
+
+/*navigation*/
+
+.navbar{
+    background-color: var(--pink);
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink);
+    color: #fff!important;
+    border-color: var(--pink);
+}
+
+/* media queries */
+@media(min-width: 992px) {
+    .nav-item{
+        border-bottom: none;
+    }
+}
+
+/*header*/
+
+/*collection*/
+.active-filter-btn{
+    background-color: var(--pink)!important;
+    color: #fff!important;
+    border-color: var(--pink)!important;
+}
+
+.collection-img span{
+    top: 16px;
+    right: 16px;
+    width: 78px;
+    height: 34px;
+    border-radius: 30px;
+}
+
+/*special*/
+.special-img span{
+    top: 16px;
+    right: 16px;
+}
+
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+
+.special-img img{
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img{
+    transform: scale(1.05);
+}
+
+/*offers*/
+#offers{
+    background-color: #ffe1eb;
+    box-shadow: 2px 2px 3px lightgray; 
+}
+
+#offers .btn:hover{
+    background-color: black;
+    color: #fff;
+    border-color: black;
+}
+
+
+/*about us*/
+#aboutus{
+    margin-bottom: 1rem;
+}
+
+/*newsletter*/
+#newsletter{
+    background-color: #ffe1eb;
+}
+
+#newsletter p{
+    max-width: 600px;
+}
+
+#newsletter .input-group{
+    max-width: 500px;
+}
+
+#newsletter .btn:hover{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+
