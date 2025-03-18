@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rom&nd (Dupe)</title>
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--open navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light py-2 sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="Romand-Logo.png" alt="site icon" style="width: 90px; height: 3rem;">
+            </a>
+
+            <div class="order-lg-2">
+                <button type="button" class="btn">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+                <button type="button" class="btn">
+                    <i class="fa fa-heart"></i>
+                </button>
+                <button type="button" class="btn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#header">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#collection">collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#specials">specials</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#blogs">blogs</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase" href="#aboutus">about us</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </nav>
+    <!--close navbar-->
+
+    <!--open header-->
+    <header id="header" class="vh-90 carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel (2).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel (3).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel (4).png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel (5).png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </header>
+    <!--close header-->
+
+    <!--open collection-->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative inline-block">Get your Favorite Makeup Products!</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-center mt-4 filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">All Products</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".lips">Lips</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".eyes">Eyes</button>
+                </div>
+            </div>
+
+            <!--row 1-->
+
+            <div class="collection-list mt-4 row gx-0 gy-3">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip1.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Glasting Melting Balm New Bare Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye (3).png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Better Than Palette Milk Grocery</p>
+                        <span class="fw-medium">$24.43</span>
+                        <span class="fw-light text-decoration-line-through"><small>$34.90</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip3.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Juicy Lasting Tint Ripe Fruits Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip2.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Juicy Lasting Tint New Bare Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <!--row 2-->
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Bare Layer Palette</p>
+                        <span class="fw-medium">$17.50</span>
+                        <span class="fw-light text-decoration-line-through"><small>$25.00</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip4.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Juicy Lasting Tint Original Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye (2).png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Better Than Palette Light and Glitter</p>
+                        <span class="fw-medium">$18.90</span>
+                        <span class="fw-light text-decoration-line-through"><small>$27.00</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye (4).png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Better Than Palette Secret Garden</p>
+                        <span class="fw-medium">$18.20</span>
+                        <span class="fw-light text-decoration-line-through"><small>$26.00</small></span>
+                    </div>
+                </div>
+
+                <!--row 3-->
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip6.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Juicy Lasting Tint Milk Grocery Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="lip8.png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Zero Velvet Tint Baked Series</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye (7).png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Better Than Eyes Music Series</p>
+                        <span class="fw-medium">$11.90</span>
+                        <span class="fw-light text-decoration-line-through"><small>$17.00</small></span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                    <div class="collection-img position-relative">
+                        <img class="w-100 rounded-top-3" src="eye (8).png">
+                        <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="my-1">Better Than Eyes Original Series</p>
+                        <span class="fw-medium">$11.90</span>
+                        <span class="fw-light text-decoration-line-through"><small>$17.00</small></span>
+                </div>
+            </div>
+
+            <!--row 4-->
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                <div class="collection-img position-relative">
+                    <img class="w-100 rounded-top-3" src="eye (6).png">
+                    <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                </div>
+                <div class="text-center">
+                    <div class="rating mt-3">
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                    </div>
+                    <p class="my-1">Better Than Eyes Milk Series</p>
+                    <span class="fw-medium">$11.90</span>
+                    <span class="fw-light text-decoration-line-through"><small>$17.00</small></span>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                <div class="collection-img position-relative">
+                    <img class="w-100 rounded-top-3" src="lip7.png">
+                    <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                </div>
+                <div class="text-center">
+                    <div class="rating mt-3">
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                    </div>
+                    <p class="my-1">Juicy Lasting Tint Sparkling Series</p>
+                    <span class="fw-medium">$9.79</span>
+                    <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 eyes">
+                <div class="collection-img position-relative">
+                    <img class="w-100 rounded-top-3" src="eye (5).png">
+                    <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                </div>
+                <div class="text-center">
+                    <div class="rating mt-3">
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                    </div>
+                    <p class="my-1">Better Than Palette Energetic</p>
+                    <span class="fw-medium">$18.20</span>
+                    <span class="fw-light text-decoration-line-through"><small>$26.00</small></span>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                <div class="collection-img position-relative">
+                    <img class="w-100 rounded-top-3" src="lip5.png">
+                    <span class="position-absolute bg-white text-danger d-flex align-items-center justify-content-center">30% off</span>
+                </div>
+                <div class="text-center">
+                    <div class="rating mt-3">
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                        <span class="text-primary"><i class="fas fa-star"></i></span>
+                    </div>
+                    <p class="my-1">Juicy Lasting Tint Autumn Series</p>
+                    <span class="fw-medium">$9.79</span>
+                    <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+            </div>
+        </div>
+    </section>
+    <!--close collection-->
+
+    <!--open special-->
+    <section id="specials" class="py-4">
+        <div class="container">
+            <div class="title text-center pb-5">
+                <h2 class="d-inline-block fw-normal highlight">Special Selection</h2>
+            </div>
+
+            <div class="special-list row g-0 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="special-img position-relative overflow-hidden rounded-top-3">
+                        <img class="w-100 rounded-top-3" src="special.png">
+                        <span class="position-absolute d-flex  text-light align-items-center justify-content-center fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="mt-3 mb-1"> Glasting Melting Balm Trio Set</p>
+                        <span class="fw-medium">$25.99</span>
+                        <span class="fw-light text-decoration-line-through"><small>$39.99</small></span>
+                        <br>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="special-img position-relative overflow-hidden rounded-top-3">
+                        <img class="w-100 rounded-top-3" src="special (2).png">
+                        <span class="position-absolute d-flex  text-light align-items-center justify-content-center fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="mt-3 mb-1"> Bare Water Cushion</p>
+                        <span class="fw-medium">$11.20</span>
+                        <span class="fw-light text-decoration-line-through"><small>$16.00</small></span>
+                        <br>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5">Add to Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2 lips">
+                    <div class="special-img position-relative overflow-hidden rounded-top-3">
+                        <img class="w-100 rounded-top-3" src="special (3).png">
+                        <span class="position-absolute d-flex  text-light align-items-center justify-content-center fs-4">
+                            <i class="fas fa-heart"></i>
+                        </span>
+                    </div>
+                    <div class="text-center">
+                        <p class="mt-3 mb-1"> See-Through Veil Lighter</p>
+                        <span class="fw-medium">$9.79</span>
+                        <span class="fw-light text-decoration-line-through"><small>$13.99</small></span>
+                        <br>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--close special-->
+
+    <!--open blogs-->
+    <section id = "offers" class = "py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-6 order-lg-1 text-lg-start px-0 py-3">
+                    <video class="object-fit-contain" autoplay muted loop tabindex="-1" controls>
+                        <source src="https://romand.us/cdn/shop/videos/c/vp/a9ddef81d50f4480ab89d8c375c4c507/a9ddef81d50f4480ab89d8c375c4c507.HD-1080p-2.5Mbps-9216902.mp4?v=0">
+                    </video>
+                </div>
+                <div class="col-lg-6 order-lg-0 px-5">
+                    <p class="text-uppercase">See-Through Veilighter</p>
+                    <h2 class="lh-2">Dewy & Shimmery Finish</h2>
+                    <br>
+                    <p>Finish your look with extra glow! Available in two luminous shades</p>
+                    <a href="#specials" class="btn btn-outline-dark mt-3">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="d-inline-block fw-light">Read <span class="highlight fw-normal">Picky's Personal Colour Series!</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="card border-0 col-md-6 col-lg-3">
+                    <img src="blogs4.jpg" alt="">
+                    <div class="card-body px-0 text-center">
+                        <h4 class="card-title">Finding Your Personal Colour</h4>
+                        <p class="card-text mt-3 text-opacity-75">Finding Your Personal Colour - summer cool, spring warm, autumn warm, winter cool! A guide created by Picky with K-pop idol examples!</p>
+                        <p class="card-text">
+                            <small class="text-opacity-75">
+                                <span class="fw-bold">Author:</span> @go.picky on Instagram
+                            </small>
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5 py-2">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="card border-0 col-md-6 col-lg-3">
+                    <img src="blogs1.jpg" alt="">
+                    <div class="card-body px-0 text-center">
+                        <h4 class="card-title">Lip Tints Perferct For Your Personal Color</h4>
+                        <p class="card-text mt-3 text-opacity-75">Whether you’re a spring warm, summer cool, autumn warm, or winter cool, we‘ve got the ideal shades just for you! 💋💖 Discover the lip tint recommendations that match your unique color palette!! 💄 💄 🌸</p>
+                        <p class="card-text">
+                            <small class="text-opacity-75">
+                                <span class="fw-bold">Author:</span> @go.picky on Instagram
+                            </small>
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5 py-2">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-3">
+                    <img src="blogs2.jpg" alt="">
+                    <div class="card-body px-0 text-center">
+                        <h4 class="card-title">Eyeshadow Perferct For Your Personal Color</h4>
+                        <p class="card-text mt-3 text-opacity-75">Matched for your undertones, discover the ideal eyeshadow palette for every season of personal color! Spring warm, summer cool, autumn warm, or winter cool – find your perfect eyeshadow palette match! 🌈✨ </p>
+                        <p class="card-text">
+                            <small class="text-opacity-75">
+                                <span class="fw-bold">Author:</span> @go.picky on Instagram
+                            </small>
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5 py-2">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-3">
+                    <img src="blogs3.jpg" alt="">
+                    <div class="card-body px-0 text-center">
+                        <h4 class="card-title">Blush Perferct For Your Personal Color</h4>
+                        <p class="card-text mt-3 text-opacity-75">Express Your True Colours: Blush for every season of personal colour! 🎨✨ Use blush catered for your undertones! Spring warm, summer cool, autumn warm or winter cool, find the perfect blush for you! ☺️</p>
+                        <p class="card-text">
+                            <small class="text-opacity-75">
+                                <span class="fw-bold">Author:</span> @go.picky on Instagram
+                            </small>
+                        </p>
+                        <a href="#" class="btn btn-outline-dark mt-3 rounded-5 py-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--close blogs-->
+
+    <hr>   
+    
+    <!--open about us-->
+    <section id = "aboutus" class = "py-5">
+        <div class = "container">
+            <div class = "row gy-lg-5 align-items-center">
+                <div class = "col-lg-6 order-lg-1 text-center text-lg-start">
+                    <div class = "title pt-3 pb-3">
+                        <h2 class = "highlight">About Us</h2>
+                    </div>
+                    <p class = "lead text-opacity-75 text-justify">Beauty Influencer + Consumer = rom&nd</p>
+                    <p>Launched the brand 'rom&nd' and introduced it on YouTube in collaboration with beauty influencer Min Saerom from "Gaeko’s Open Studio." rom&nd creates products and content that reflect customer needs by partnering with beauty influencers, who serve as key figures in the communication within the Beautyholic community.</p>
+                </div>
+                <div class = "col-lg-6 order-lg-0">
+                    <img src = "aboutus.gif" alt = "" class = "img-fluid rounded-3">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--close about us-->
+
+    <!--open newsletter-->
+    <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3">
+                    <h2 class = "ms-4">Subscribe to Our Newsletter!</h2>
+                </div>
+
+                <p class = "text-center text-opacity-75">Get a 20% Off Coupon on Your First Order!</p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-dark" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--close newsletter-->
+
+    <!--open footer-->
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-decoration-none brand text-white fs-3" href = "index.html">rom&nd<span style="font-size: 20px;"><sup>©</sup></span></a>
+                    <p class = "text-white text-opacity-75 m-5 ms-0 mt-3">Discover your signature color with our vibrant range of shades. The romantichic, rom&nd. Shop rom&nd’s makeup and beauty bestsellers and enjoy exclusive benefits.</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Customer Care</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-opacity-75">
+                                <small><i class = "fas fa-chevron-right me-1"></i></small> Help
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-opacity-75">
+                                <small><i class = "fas fa-chevron-right me-1"></i></small> Shipping
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-opacity-75">
+                                <small><i class = "fas fa-chevron-right me-1"></i></small> Payment
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "#" class = "text-white text-decoration-none text-opacity-75">
+                                <small><i class = "fas fa-chevron-right me-1"></i></small> Returns & Exchanges
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-opacity-75">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            Seoul, Republic of Korea
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-opacity-75">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            romandyou@naver.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-opacity-75">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +82-1670-2238
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-opacity-75 fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-opacity-75 fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-opacity-75 fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--close footer-->
+
+    <!--jquery-->
+    <script src="js/jquery-3.7.1.js"></script>
+    <!--isotope js-->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <!--bootstrap js-->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!--custom js-->
+    <script src="js/script.js"></script>
+</body>
+</html>
